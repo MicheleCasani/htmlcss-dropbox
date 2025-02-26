@@ -11,7 +11,7 @@ body{
 }
 
 main{
-    max-width: 2500px;
+    width: 100%;
 }
 
 /* utility */
@@ -34,14 +34,16 @@ a{
     color: black;
 }
 
+.flex-wrap{
+    flex-wrap: wrap
 
+}
 
 /* header */
 
 header{
     width: 100%;
     justify-content: space-between;
-    border: 1px solid black;
     padding: 20px 0px;
     align-items: center;
 }
@@ -55,6 +57,24 @@ header{
 
 .jumbotron{
     background-color: rgb(180,208,230);
-    height: 500px;
+    height: 800px;
     width: 100%;
+    justify-content: center;
+}
+
+.block-jumbo{
+    border: 1px solid black;
+    width: 75%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.title-jumbo{
+font-size: 90px;
+width: 80%;
+border: 1px solid black;
+text-align: center;
+align-items: center}
+
+.text-jumbo{
 }
