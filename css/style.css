@@ -117,11 +117,11 @@ font-size: 110px;
 /* list price*/
 
 .list-price{
-    height: 900px;
     width: 100%;
     justify-content: center;
     margin-top: 200px;
     border-top: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
 }
 
 .block-list-price{
@@ -238,6 +238,15 @@ font-size: 110px;
 
 /* trova un partner */
 
+.card-find-partner{
+    width: 80%;
+    justify-content: center
+}
+
+.card-img-partner{
+    width:50% ;
+    border: 1px solid black;
+}
     
 
 
