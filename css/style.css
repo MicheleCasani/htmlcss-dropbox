@@ -20,10 +20,10 @@ main{
     display: flex;
 }
 
-.botton{
+.button{
 color: white;
 background-color: blue;
-padding: 5px 10px;
+padding: 10px 10px;
 }
 
 a{
@@ -34,9 +34,25 @@ a{
     color: black;
 }
 
-.flex-wrap{
-    flex-wrap: wrap
 
+.margin-top{
+    margin-top: 60px;
+}
+
+.color-grey{
+    color: rgb(220, 220, 220);
+}
+
+.font-size{
+    font-size: 20px;
+}
+
+.color-blu{
+    color: blue;
+}
+
+.gap{
+    gap: 200px;
 }
 
 /* header */
@@ -57,24 +73,143 @@ header{
 
 .jumbotron{
     background-color: rgb(180,208,230);
-    height: 800px;
+    height: 900px;
     width: 100%;
     justify-content: center;
 }
 
 .block-jumbo{
-    border: 1px solid black;
     width: 75%;
     justify-content: center;
     margin-top: 100px;
+    border: 1px solid black;
 }
 
 .title-jumbo{
-font-size: 90px;
-width: 80%;
-border: 1px solid black;
-text-align: center;
-align-items: center}
+font-size: 110px;
+}
 
 .text-jumbo{
+    width: 40%;
+    margin-top: 50px;
 }
+.arrow{
+    font-size: 40px;
+}
+
+.-card-img-jumbo{
+    width: 60%;
+    margin-top: 70px;
+}
+
+.img-jumbo{
+    width: 80%;
+    margin-top: 40px;
+}
+
+/* list price*/
+
+.list-price{
+    height: 900px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 200px;
+    border-top: 1px solid rgb(220, 220, 220);
+}
+
+.block-list-price{
+    width: 70%;
+    border: 1px solid black;
+    margin-top: 50px;
+    height: 2000px;
+}
+
+.circle-blu{
+    border-radius: 50%;
+    border: 3px solid blue;
+    width: 150px;
+    height: 150px;
+    font-size: 8px;
+    color: white;
+    
+}
+
+.circle{
+    border-radius: 50%;
+    border: 3px solid rgb(220, 220, 220);
+    width: 150px;
+    height: 150px;
+    font-size: 8px;
+    color: white;
+    
+}
+
+.margin-selector{
+    margin: 70px 50px 70px 0px;
+
+}
+
+.size-list-price{
+    font-size: 50px;
+}
+
+.card-list{
+    width: 20%;
+    border: 1px solid rgb(220, 220, 220);;
+}
+
+.head-list{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(220, 220, 220);;
+}
+
+.top-list{
+    line-height: 40px;
+    padding-left: 30px;
+    margin: 30px 0px;
+}
+
+.mid-list{
+    line-height: 40px;
+    padding-left: 30px;
+    margin: 30px 0px;
+}
+
+.button-list{
+    color: white;
+    background-color: blue;
+    padding: 10px 10px;
+    position: relative;
+    left: 40px;
+}
+
+#link-underline{
+    text-decoration: underline;
+}
+
+#line{
+    width: 50px;
+    border: 1px solid rgb(220, 220, 220) ;
+}
+
+.mid-list-2{
+    line-height:60px;
+    padding-left: 30px;
+    margin: 30px 0px;
+}
+
+.footer-list{
+    line-height:60px;
+    padding-left: 30px;
+    margin: 30px 0px;
+}
+
+
+
+    
+
+
+
+
+
