@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+body{
+    font-family: "Open Sans";
+    max-width: 2500px;
+
+}
+
+main{
+    max-width: 2500px;
+}
+
+/* utility */
+
+.display-flex{
+    display: flex;
+}
+
+.botton{
+color: white;
+background-color: blue;
+padding: 5px 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.color-black{
+    color: black;
+}
+
+
+
+/* header */
+
+header{
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.header-box{
+    gap: 40px;
+    align-items: center;
+}
+
+ /* jumbotron */
+
+.jumbotron{
+    background-color: rgb(180,208,230);
+    height: 500px;
+    width: 100%;
+}
