@@ -6,7 +6,6 @@
 
 body{
     font-family: "Open Sans";
-    width: 2500px;
 
 }
 
@@ -77,6 +76,10 @@ a{
 
 .justify-content{
     justify-content: center;
+}
+
+.align-items{
+    align-items: center;
 }
 
 /* header */
@@ -274,7 +277,6 @@ font-size: 110px;
 
 .block-partner{
     width: 70%;
-    border: 1px solid black;
 }
 
 .button-partner{
@@ -285,7 +287,7 @@ border: 1px solid black;
 
 /* gallery */
 
-.intestazione-gallery{
+.disclaimer{
     margin-top: 200px;
     margin-bottom: 100px;
     font-size: 60px;
@@ -296,18 +298,45 @@ border: 1px solid black;
 
 .block-gallery{
     width: 70%;
-    border: 1px solid black;
 }
 
 .card-gallery{
     width: 30%;
-    border: 1px solid black;
     height: 100px;
     margin-top: 30px;
     margin-right: 30px;
-    justify-content: space-between;
+    height: 500px;
+    padding-bottom: 20px;
 }
 
+.w-img{
+    width: 400px;
+    position: relative;
+    left: 65px;
+}
+
+.position-scopri{
+    position: relative;
+    left: 380px;  
+    margin-bottom: 150px;  
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 1000px;
+}
+
+li{
+    color: white;
+}
+
+ul{
+    margin-right: 200px;
+    list-style: none;
+    margin-top: 100px;
+}
 
 
 
