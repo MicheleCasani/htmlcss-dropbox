@@ -1,94 +1,94 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Open Sans";
 
 }
 
-main{
+main {
     width: 100%;
 }
 
 /* utility */
 
-.display-flex{
+.display-flex {
     display: flex;
 }
 
-.button{
-color: white;
-background-color: blue;
-padding: 10px 10px;
+.button {
+    color: white;
+    background-color: blue;
+    padding: 10px 10px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.color-black{
+.color-black {
     color: black;
 }
 
 
-.margin-top{
+.margin-top {
     margin-top: 60px;
 }
 
-.color-grey{
+.color-grey {
     color: rgb(220, 220, 220);
 }
 
-.font-size{
+.font-size {
     font-size: 30px;
 }
 
-.color-blu{
+.color-blu {
     color: blue;
 }
 
-.gap{
+.gap {
     gap: 200px;
 }
 
-.padding{
-    padding: 0px 0px 30px 30px ;
+.padding {
+    padding: 0px 0px 30px 30px;
 }
 
-.position-relative{
+.position-relative {
     position: relative;
 }
 
-.margin-bottom{
+.margin-bottom {
     margin-bottom: 40px;
 }
 
-.flex-wrap{
+.flex-wrap {
     flex-wrap: wrap;
 }
 
-.dysplay-column{
+.dysplay-column {
     flex-direction: column;
 }
 
-.justify-content{
+.justify-content {
     justify-content: center;
 }
 
-.align-items{
+.align-items {
     align-items: center;
 }
 
-.color-white{
+.color-white {
     color: white;
 }
 
 /* header */
 
-header{
+header {
     width: 100%;
     justify-content: space-between;
     padding: 20px 20px;
@@ -100,51 +100,52 @@ header{
 
 }
 
-.header-box{
+.header-box {
     gap: 40px;
     align-items: center;
 }
 
- /* jumbotron */
+/* jumbotron */
 
-.jumbotron{
-    background-color: rgb(180,208,230);
+.jumbotron {
+    background-color: rgb(180, 208, 230);
     height: 900px;
     width: 100%;
     justify-content: center;
 }
 
-.block-jumbo{
+.block-jumbo {
     width: 75%;
     justify-content: center;
     margin-top: 100px;
 }
 
-.title-jumbo{
-font-size: 110px;
+.title-jumbo {
+    font-size: 110px;
 }
 
-.text-jumbo{
+.text-jumbo {
     width: 40%;
     margin-top: 50px;
 }
-.arrow{
+
+.arrow {
     font-size: 40px;
 }
 
-.-card-img-jumbo{
+.-card-img-jumbo {
     width: 60%;
     margin-top: 70px;
 }
 
-.img-jumbo{
+.img-jumbo {
     width: 80%;
     margin-top: 40px;
 }
 
 /* list price*/
 
-.list-price{
+.list-price {
     width: 100%;
     justify-content: center;
     margin-top: 200px;
@@ -152,65 +153,67 @@ font-size: 110px;
     border-bottom: 1px solid rgb(220, 220, 220);
 }
 
-.block-list-price{
+.block-list-price {
     width: 70%;
     margin-top: 50px;
     height: 2000px;
 }
 
-.circle-blu{
+.circle-blu {
     border-radius: 50%;
     border: 3px solid blue;
     width: 150px;
     height: 150px;
     font-size: 8px;
     color: white;
-    
+
 }
 
-.circle{
+.circle {
     border-radius: 50%;
     border: 3px solid rgb(220, 220, 220);
     width: 150px;
     height: 150px;
     font-size: 8px;
     color: white;
-    
+
 }
 
-.margin-selector{
+.margin-selector {
     margin: 70px 50px 70px 0px;
 
 }
 
-.size-list-price{
+.size-list-price {
     font-size: 50px;
 }
 
-.card-list{
+.card-list {
     width: 20%;
-    border: 1px solid rgb(220, 220, 220);;
+    border: 1px solid rgb(220, 220, 220);
+    ;
 }
 
-.head-list{
+.head-list {
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid rgb(220, 220, 220);;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    ;
 }
 
-.top-list{
+.top-list {
     line-height: 40px;
     padding-left: 30px;
     margin: 30px 0px;
 }
 
-.mid-list{
+.mid-list {
     line-height: 40px;
     padding-left: 30px;
     margin: 30px 0px;
 }
 
-.button-list{
+.button-list {
     color: white;
     background-color: blue;
     padding: 10px 10px;
@@ -218,83 +221,86 @@ font-size: 110px;
     left: 40px;
 }
 
-#link-underline{
+#link-underline {
     text-decoration: underline;
 }
 
-#line{
+#line {
     width: 50px;
-    border: 1px solid rgb(220, 220, 220) ;
+    border: 1px solid rgb(220, 220, 220);
 }
 
-.mid-list-2{
-    line-height:60px;
+.mid-list-2 {
+    line-height: 60px;
     padding-left: 30px;
     margin: 30px 0px;
 }
 
-.footer-list{
-    line-height:60px;
+.footer-list {
+    line-height: 60px;
     padding-left: 30px;
     margin: 30px 0px;
 }
 
-.contact-enterprise{
+.contact-enterprise {
     width: 83%;
-    border: 1px solid rgb(220, 220, 220);;
+    border: 1px solid rgb(220, 220, 220);
+    ;
     margin-top: 10px;
 
 }
 
-.card-contact{
+.card-contact {
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid rgb(220, 220, 220);;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    ;
 }
 
-.main-contact{
+.main-contact {
     line-height: 50px;
     margin: 30px 0px 0px 30px;
     padding-bottom: 50px;
 }
 
-.position-button{
+.position-button {
     position: absolute;
-    top:90px;
+    top: 90px;
     right: 50px;
 }
 
 /* trova un partner */
 
-.find-partner{
+.find-partner {
     width: 100%;
     justify-content: center;
     margin-top: 70px;
 }
 
-.card-img-partner{
-    width:50%;
+.card-img-partner {
+    width: 50%;
 }
 
-.text-partner{
+.text-partner {
     width: 33%;
     margin-top: 150px;
+    margin-left: 50px;
 
 }
 
-.block-partner{
+.block-partner {
     width: 70%;
 }
 
-.button-partner{
+.button-partner {
     color: black;
-padding: 10px 10px;  
-border: 1px solid black;
+    padding: 10px 10px;
+    border: 1px solid black;
 }
 
 /* gallery */
 
-.disclaimer{
+.disclaimer {
     margin-top: 200px;
     margin-bottom: 100px;
     font-size: 60px;
@@ -302,11 +308,11 @@ border: 1px solid black;
 
 }
 
-.block-gallery{
+.block-gallery {
     width: 70%;
 }
 
-.card-gallery{
+.card-gallery {
     width: 30%;
     height: 100px;
     margin-top: 30px;
@@ -315,38 +321,38 @@ border: 1px solid black;
     padding-bottom: 20px;
 }
 
-.w-img{
+.w-img {
     width: 70%
 }
 
-.position-scopri{
+.position-scopri {
     padding-left: 380px;
-    margin-bottom: 150px;  
+    margin-bottom: 150px;
 }
 
 /* footer */
 
-footer{
+footer {
     background-color: black;
 }
 
-li{
+li {
     color: white;
 }
 
-ul{
+ul {
     margin-right: 200px;
     list-style: none;
     margin-top: 100px;
     line-height: 40px;
 }
 
-.font-li{
+.font-li {
     margin-bottom: 20px;
     font-size: 22px;
 }
 
-.line{
+.line {
     width: 20px;
     border: 1px solid white;
     padding-left: 100px;
@@ -354,12 +360,9 @@ ul{
     margin-left: 450px;
 }
 
-.language{
+.language {
     color: rgb(165, 164, 164);
     padding-left: 450px;
     margin-top: 50px;
     padding-bottom: 50px;
 }
-
-
-
