@@ -189,7 +189,7 @@ header {
 }
 
 .card-list {
-    width: 20%;
+    width: 25%;
     border: 1px solid rgb(220, 220, 220);
     ;
 }
@@ -208,17 +208,20 @@ header {
 }
 
 .mid-list {
-    line-height: 40px;
     padding-left: 30px;
     margin: 30px 0px;
+}
+
+.margin-list {
+    margin-bottom: 20px;
+
 }
 
 .button-list {
     color: white;
     background-color: blue;
     padding: 10px 10px;
-    position: relative;
-    left: 40px;
+    margin-left: 60px
 }
 
 #link-underline {
@@ -243,7 +246,7 @@ header {
 }
 
 .contact-enterprise {
-    width: 83%;
+    width: 100%;
     border: 1px solid rgb(220, 220, 220);
     ;
     margin-top: 10px;
