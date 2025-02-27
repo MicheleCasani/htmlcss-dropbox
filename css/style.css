@@ -6,7 +6,7 @@
 
 body{
     font-family: "Open Sans";
-    max-width: 2500px;
+    width: 2500px;
 
 }
 
@@ -285,14 +285,27 @@ border: 1px solid black;
 
 /* gallery */
 
+.intestazione-gallery{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    position: relative;
+    left: 380px;
+
+}
+
 .block-gallery{
     width: 70%;
     border: 1px solid black;
-    margin-top: 100px;
 }
 
 .card-gallery{
-    width: 33%;
+    width: 30%;
+    border: 1px solid black;
+    height: 100px;
+    margin-top: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
 }
 
 
